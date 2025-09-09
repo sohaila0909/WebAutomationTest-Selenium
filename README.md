@@ -9,7 +9,7 @@ The framework supports parallel execution across multiple browsers and externali
 
 | Component        | Description |
 |-----------------|-------------|
-| `BaseTest`       | Initializes WebDriver for Chrome, Firefox, and Edge; loads configuration and locator files; manages setup and teardown. |
+| `BaseTest`       | Initializes WebDriver for Chrome, Firefox, and Edge; loads configuration and locator files, manages setup and teardown. |
 | `SearchTest`     | Implements test cases: validating Bing homepage title, first two search results, and results count on subsequent pages. |
 | `TestListener`   | Captures test logs, handles screenshots on failures, and integrates with ExtentReports. |
 | `ReportManager`  | Creates a singleton ExtentReports instance to generate HTML reports with test details. |
