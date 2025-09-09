@@ -54,7 +54,7 @@ After each test, the WebDriver instance is closed to enable parallel execution a
 ## How to Run
 1. Clone the repository.  
 2. Update `config.properties` and `locators.properties` as needed.
-3. Customize the test suite (optional).  
+3. Customize the test suite to set the execution browser as well as search term(optional).  
 4. Run the test suite using TestNG XML (cross-browser test).
 
 ```bash
