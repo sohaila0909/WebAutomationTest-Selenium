@@ -1,0 +1,115 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BingSearchSuite" parallel="tests" thread-count="5">
+
+	<!-- Chrome Tests -->
+	<test name="Chrome - Vodafone">
+		<parameter name="browser" value="chrome" />
+		<parameter name="searchTerm" value="Vodafone" />
+		<classes>
+			<class name="testcases.SearchTest" />
+		</classes>
+	</test>
+	<test name="Chrome - Vodafone VOIS">
+		<parameter name="browser" value="chrome" />
+		<parameter name="searchTerm" value="Vodafone VOIS" />
+		<classes>
+			<class name="testcases.SearchTest" />
+		</classes>
+	</test>
+	<test name="Chrome - VODA">
+		<parameter name="browser" value="chrome" />
+		<parameter name="searchTerm" value="VODA" />
+		<classes>
+			<class name="testcases.SearchTest" />
+		</classes>
+	</test>
+	<test name="Chrome - VODAFONNEEE">
+		<parameter name="browser" value="chrome" />
+		<parameter name="searchTerm" value="VODAFONNEEE" />
+		<classes>
+			<class name="testcases.SearchTest" />
+		</classes>
+	</test>
+	<test name="Chrome - Vodafone logo">
+		<parameter name="browser" value="chrome" />
+		<parameter name="searchTerm" value="Vodafone logo" />
+		<classes>
+			<class name="testcases.SearchTest" />
+		</classes>
+	</test>
+
+	<!-- Firefox Tests -->
+	<test name="Firefox - Vodafone">
+		<parameter name="browser" value="firefox" />
+		<parameter name="searchTerm" value="Vodafone" />
+		<classes>
+			<class name="testcases.SearchTest" />
+		</classes>
+	</test>
+	<test name="Firefox - Vodafone VOIS">
+		<parameter name="browser" value="firefox" />
+		<parameter name="searchTerm" value="Vodafone VOIS" />
+		<classes>
+			<class name="testcases.SearchTest" />
+		</classes>
+	</test>
+	<test name="Firefox - VODA">
+		<parameter name="browser" value="firefox" />
+		<parameter name="searchTerm" value="VODA" />
+		<classes>
+			<class name="testcases.SearchTest" />
+		</classes>
+	</test>
+	<test name="Firefox - VODAFONNEEE">
+		<parameter name="browser" value="firefox" />
+		<parameter name="searchTerm" value="VODAFONNEEE" />
+		<classes>
+			<class name="testcases.SearchTest" />
+		</classes>
+	</test>
+	<test name="Firefox - Vodafone logo">
+		<parameter name="browser" value="firefox" />
+		<parameter name="searchTerm" value="Vodafone logo" />
+		<classes>
+			<class name="testcases.SearchTest" />
+		</classes>
+	</test>
+
+	<!-- Edge Tests -->
+	<test name="Edge - Vodafone">
+		<parameter name="browser" value="edge" />
+		<parameter name="searchTerm" value="Vodafone" />
+		<classes>
+			<class name="testcases.SearchTest" />
+		</classes>
+	</test>
+	<test name="Edge - Vodafone VOIS">
+		<parameter name="browser" value="edge" />
+		<parameter name="searchTerm" value="Vodafone VOIS" />
+		<classes>
+			<class name="testcases.SearchTest" />
+		</classes>
+	</test>
+	<test name="Edge - VODA">
+		<parameter name="browser" value="edge" />
+		<parameter name="searchTerm" value="VODA" />
+		<classes>
+			<class name="testcases.SearchTest" />
+		</classes>
+	</test>
+	<test name="Edge - VODAFONNEEE">
+		<parameter name="browser" value="edge" />
+		<parameter name="searchTerm" value="VODAFONNEEE" />
+		<classes>
+			<class name="testcases.SearchTest" />
+		</classes>
+	</test>
+	<test name="Edge - Vodafone logo">
+		<parameter name="browser" value="edge" />
+		<parameter name="searchTerm" value="Vodafone logo" />
+		<classes>
+			<class name="testcases.SearchTest" />
+		</classes>
+	</test>
+
+</suite>
